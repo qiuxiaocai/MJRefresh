@@ -28,7 +28,6 @@ static const CGFloat MJDuration = 2.0;
 #define MJRandomData [NSString stringWithFormat:@"随机数据---%d", arc4random_uniform(1000000)]
 
 @interface MJTableViewController()
-/** 用来显示的假数据 */
 @property (strong, nonatomic) NSMutableArray *data;
 @end
 
